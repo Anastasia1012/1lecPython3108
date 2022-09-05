@@ -148,9 +148,9 @@ for i in range(6,20,2): #так же и можно со словами
     #print(text[::6]) сеикакл
     #text = text[2:9] + text[-5] + text[:2]
     
-    #Списки
+    #Lists
 
-    #Список - пронумерованная, изменяемая коллекция обьектов *произвольных* типов
+    #List - пронумерованная, изменяемая коллекция обьектов *произвольных* типов
 
     #numbers = [1,2,3,4,5]
     #print(numbers) [1,2,3,4,5]
@@ -161,7 +161,7 @@ for i in range(6,20,2): #так же и можно со словами
     #    i*=2
     #    print(i) [20,4,6,8,10]
     #    print(numbers) [10,2,3,4,5]
-    #Не запустилось
+    
 numbers = [1, 2, 3, 4, 5]
 print(numbers) #[1,2,3,4,5]
 ran = range(1, 6)
@@ -185,15 +185,15 @@ print(type(numbers))
 #for e in colours:
 #    print(e*2) #redred greengreen blueblue
 
-#colours.append('gray') #добавить в конец
+#colours.append('gray') #to add in the end
 #print(colours == ['red', 'green', 'blue', 'gray']) #True
-#colours.remove('red') #del colours[0] удалить
+#colours.remove('red') #del colours[0] to delete
 
-##Функции
+##Functions
 
 #def f(x):
 #    if x == 1:
-#        return 'Целое'
+#        return 
 #    elif x == 2.3:
 #        return 23
 #    else:
